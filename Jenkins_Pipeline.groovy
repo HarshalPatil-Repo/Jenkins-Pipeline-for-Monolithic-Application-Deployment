@@ -28,7 +28,7 @@ pipeline {
                   ssh jenkins@172.31.86.100 sudo rm -rf /var/tmp/*.war
                   ssh jenkins@172.31.86.100 sudo rm -rf /opt/apache-tomcat-9.*/webapps/*.war
                   scp /var/lib/jenkins/workspace/MonoliticApplicatonDeployment/target/*.war jenkins@172.31.86.100:/var/tmp
-                  ssh jenkins@172.31.86.100 sudo cp /var/tmp/*war /opt/apache-tomcat-9.*/webapps/
+                  ssh jenkins@172.31.86.100 sudo cp /var/tmp/*.war /opt/apache-tomcat-9.*/webapps/
                   ssh jenkins@172.31.86.100 sudo tomdown
                   ssh jenkins@172.31.86.100 sudo tomup
                 """
