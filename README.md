@@ -38,20 +38,22 @@ In this project I have deployed simple java based application into Tomcat server
 
 
 ## Jenkins Pipeline
- * ![image](https://github.com/user-attachments/assets/4c0c26db-ed89-492b-9c7a-14a69ea95b99)
- * ![image](https://github.com/user-attachments/assets/fb28679c-e063-4375-82ac-bd6f6818f08a)
+ * ![image](https://github.com/user-attachments/assets/ad166cf1-79ed-4c12-9934-c054c5053e09)
+ * ![image](https://github.com/user-attachments/assets/f48d8209-a9de-4da3-ae8c-52fc0fdb3a41)
+ * ![image](https://github.com/user-attachments/assets/353653f6-9d82-48bb-ae6d-a18a0c9db923)
 
 ## SonarQube Static Code Analysis
-  * ![image](https://github.com/user-attachments/assets/86c6c612-1205-41a3-910c-281da0db0458)
+  * ![image](https://github.com/user-attachments/assets/a8bac607-cebf-4c78-b041-2765734bf039)
 
 ## Nexus Artifact Upload
-  * ![image](https://github.com/user-attachments/assets/841af9a4-b02a-4b7e-bf09-883924e61e38)
+  * ![image](https://github.com/user-attachments/assets/a18f2634-d4d9-4628-b9a2-453b14846016)
 
 ## Deployment in Tomcat Server
-  * ![image](https://github.com/user-attachments/assets/f456993c-b7b2-4399-8283-3769f3864003)
+  * ![image](https://github.com/user-attachments/assets/7cffee3b-6abc-46bb-8f78-621499ad5696)
 
 ## Web Application
-  * ![image](https://github.com/user-attachments/assets/0e81533f-885b-40c8-8a0b-b7ed35af23a2)
+  * ![image](https://github.com/user-attachments/assets/0d5d22ce-14ae-46ee-af4f-f4cf3d950fca)
+
 
 
 
