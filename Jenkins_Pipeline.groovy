@@ -51,22 +51,4 @@ pipeline {
             }
         }
     }
-    post {
-        success {
-            script {
-                // Push updatedd pom.xml to git repository
-                withCredentials([sshUserPrivateKey(credentialsId: 'github-ssh-key', keyFileVariable: 'SSH_KEY')]) {
-                    sh """
-                        git config user.email "hpharshalmech@gmail.com"
-                        git config user.name "HarshalPatil"
-                        git add pom.xml
-                        git commit -m "Update version to ${NEW_VERSION} [Jenkins Build #${BUILD_NUMBER}]"
-                        git push git@github.com:HarshalPatil-Repo/Jenkins-Pipeline-for-Monolithic-Application-Deployment.git HEAD:master
-                    """
-               }
-          }
-    }
-    always {
-        cleanWs()
-      }
 }
